@@ -1,1 +1,1 @@
-# Finance-Manager
+# Finance-Manager Application
