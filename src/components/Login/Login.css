@@ -1,0 +1,132 @@
+.login-component {
+  height: auto;
+  background: linear-gradient(#2a00b7, #42006c);
+}
+
+.login-component .container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+.login-component .header {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.login-component .text {
+  color: #3c009d;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.login-component .underline {
+  width: 61px;
+  height: 6px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+
+.login-component .inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.login-component .input {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.login-component .input img {
+  margin-left: 30px;
+}
+
+.login-component .input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.login-component .forget-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.login-component .forget-password span {
+  color: #4c00b4;
+  cursor: pointer;
+}
+
+.login-component .submit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 60px auto;
+}
+.login-component .upper{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin: 20px auto;
+}
+
+.login-component .lower{
+  align-self: center;
+}
+
+.login-component .submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 60px;
+  background: #4c00b4;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.login-component .captcha{
+  align-self: center;
+}
+
+
+
+.login-component .gray{
+  color: #676767;
+  background: #eaeaea;
+}
+
+.login-component .submit:hover{
+  background: #762dec;
+  transition: 0.5s;
+  color: #fff
+}
+
+
+
