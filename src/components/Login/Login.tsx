@@ -6,7 +6,6 @@ import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import dotenv from "dotenv";
 
 const Login = () => {
   const [action, setAction] = useState("Login");
